@@ -1,5 +1,5 @@
 var MUNAL=[
-  "IMG_20191026_121604167.jpg","IMG_20210505_231515.jpg","IMG_20210505_231505.jpg","IMG_20210505_231524.jpg","IMG_20220422_183606.jpg","IMG_20240326_121520.jpg","IMG-20230629-WA0016.jpg","Nemo_asustado.jpg","Orca.jpg","Bailando.jpg","cara.jpg","Delfin_Feliz.jpg","Fondo_de_arbol.jpeg","Fondo_de_olas.jpg"
+  "IMG_20191026_121604167.jpg","IMG_20210505_231505.jpg","IMG_20210505_231524.jpg","IMG_20220422_183606.jpg","IMG_20240326_121520.jpg","IMG-20230629-WA0016.jpg","Nemo_asustado.jpg","Orca.jpg","Bailando.jpg","cara.jpg","Delfin_Feliz.jpg","Fondo_de_arbol.jpeg","Fondo_de_olas.jpg"
 ]
 var i=0
 var y=1
@@ -108,8 +108,8 @@ $(document).ready(function(){
     root.renderer.setPixelRatio(window.devicePixelRatio || 1);
     root.camera.position.set(0, 0, 60);
   
-    var width = 100;
-    var height = 60;
+    var width = 133;
+    var height = 100;
   
      slide= new Slide(width, height, 'out');
     l1 = new THREE.ImageLoader();
@@ -362,6 +362,7 @@ $(document).ready(function(){
       antialias: params.antialias,
       alpha: true
     });
+    this.renderer.domElement.id="canvas_02"
     this.renderer.setPixelRatio(Math.min(2, window.devicePixelRatio || 1));
     document.getElementById('three-container').appendChild(this.renderer.domElement);
   

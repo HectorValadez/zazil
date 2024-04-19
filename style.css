@@ -17,7 +17,7 @@
     width: 100%;
     height: 100%;
     font-family: "Kaushan Script", cursive;
-
+    overflow-x: hidden;
   }
   .container{
     @include center();
@@ -66,14 +66,16 @@
 
 /* Section - Block */
 /**************************/
-#parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
+#parangaricutirimicuaro {background: #FCE181;}
+#parangaricutirimicuaro p{font-family: "arial"!important; font-size: 25px !important;}
+#parallax-world-of-ugg .block {background: #FCE181; padding: 60px; width:820px; margin:0 auto; text-align:justify; }
 #parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
 #parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
 
 /* Section - Parallax */
 /**************************/
 #parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("paisaje-que-te-inspire-a-dibujar (1).png"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
-#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1432163230927-a32e4fd5a326?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("logo temporal tal vez.webp"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 #parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 
 /* Extras */
@@ -246,8 +248,12 @@ button:hover {
 }
 canvas {
 	background-image: radial-gradient(#00677D, #5F9AA1);
+  width: 100% !important;
 }
-
+#canvas_02 {
+	background-image: linear-gradient(135deg,#026828  , #13E886 , #79f38d);
+  width: 100% !important;
+}
 #instructions {
 	position: absolute;
 	color: #fff;
@@ -342,14 +348,14 @@ background: #fefefe;
 border-color: #007bb5;
 }
 
-.rounded-social-buttons .social-button.tiktok {
-background: #000000;
+.rounded-social-buttons .social-button.whatsapp {
+background: #48ff00;
 }
 
-.rounded-social-buttons .social-button.tiktok:hover, .rounded-social-buttons .social-button.tiktok:focus {
-color: #000000;
+.rounded-social-buttons .social-button.whatsapp:hover, .rounded-social-buttons .social-button.whatsapp:focus {
+color: #48ff00;
 background: #fefefe;
-border-color: #000000;
+border-color: #48ff00;
 }
 
 .rounded-social-buttons .social-button.youtube {
@@ -363,11 +369,16 @@ border-color: #bb0000;
 }
 
 .rounded-social-buttons .social-button.instagram {
-background: #125688;
+background: #db09d1;
 }
 
 .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
-color: #125688;
+color: #db09d1;
 background: #fefefe;
-border-color: #125688;
+border-color: #db09d1;
+}
+footer{
+  background-color: #008C34  ;
+  margin: none !important;;
+  width: 100%;
 }
